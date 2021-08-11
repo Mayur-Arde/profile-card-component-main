@@ -59,11 +59,11 @@ body{
 }
 
 .info{
-  /* margin-bottom: 18px; */
+  margin: 8px 0;
 }
 .info h3{
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .info span{
@@ -81,11 +81,14 @@ body{
   /* align-items: center; */
   justify-content: center;
   border-top: 1px solid var(--darkGrey);
-  padding: 22px;
+  padding: 25px;
 }
 
 .status-info{
   padding:0 25px;
+}
+.status-info strong{
+  font-weight: 700;
 }
 
 .status-info p{
